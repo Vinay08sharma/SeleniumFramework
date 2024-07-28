@@ -20,6 +20,7 @@ public final class RemoteDriverFactory {
         } else if (browserName.equalsIgnoreCase("safari")) {
             cap.setBrowserName("safari");
         }
+        System.out.println("current url" + ConfigFactory.getConfig().remoteUrl());
         return new RemoteWebDriver(new URL(ConfigFactory.getConfig().remoteUrl()), cap);
     }
 }
