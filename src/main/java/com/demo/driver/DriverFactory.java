@@ -1,15 +1,8 @@
 package com.demo.driver;
 
-import com.demo.config.ConfigFactory;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.safari.SafariDriver;
 
 import java.net.MalformedURLException;
-import java.net.URL;
 
 public class DriverFactory {
 
