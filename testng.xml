@@ -7,7 +7,6 @@
     <test name="Selenium Framework" thread-count="2" parallel="methods">
         <classes>
             <class name="com.tests.Login"/>
-<!--            <class name="com.tests.RandomTest"/>-->
         </classes>
     </test>
 </suite>
